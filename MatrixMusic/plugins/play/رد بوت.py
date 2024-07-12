@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-atari = ["وبعدين وياك ؟", "عندي اسم ترا", "زعلت !", "وياك القميل ماتركس
+atari = ["وبعدين وياك ؟", "عندي اسم ترا", "زعلت !", "وياك القميل ماتركس"]
 @app.on_message(filters.text & filters.regex(r"(^|\W)بوت(\W|$)"))
 async def atari(client, message):
     if "بوت" in message.text:
