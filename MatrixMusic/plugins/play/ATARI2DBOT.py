@@ -12,7 +12,7 @@ async def ytsearch(_, message: Message):
         pass
     try:
         if len(message.command) < 2:
-            return await message.reply_text("جار البحث في سيرفرات سورس بلاك")
+            return await message.reply_text("جار البحث في سيرفرات سورس ماتركس")
         query = message.text.split(None, 1)[1]
         m = await message.reply_text("يتم البحث الان ...")
         results = YoutubeSearch(query, max_results=4).to_dict()
@@ -29,7 +29,7 @@ async def ytsearch(_, message: Message):
             [
                 [
                 InlineKeyboardButton(
-                        "‹ 𝐁𝐥𝐚𝐜𝐤 𝐓𝐞𝐀𝐦 ›", url=f"https://t.me/vvizinn"),
+                        "‹ سِۅٛࢪسِ مِاެتَࢪكَسِ ›", url=f"https://t.me/veevvw"),
                 ],[
                     InlineKeyboardButton(
                         text="‹ اغلاق ›",
