@@ -24,7 +24,7 @@ async def huhh(client, message):
                        "المقتول 🔪", url=f"https://t.me/{message.reply_to_message.from_user.username}"
                    )],[
                    InlineKeyboardButton(
-                       "‹ 𝐁𝐥𝐚𝐜𝐤 𝐓𝐞𝐀𝐦 ›", url="https://t.me/vvizinn"),
+                       "‹ سِۅٛࢪسِ مِاެتَࢪكَسِ ›", url="https://t.me/veevvw"),
                ],
            ]
         )
@@ -44,7 +44,7 @@ async def huhh(client, message):
                        "المجني عليه 😢", url=f"https://t.me/{message.reply_to_message.from_user.username}"
                   )],[
                    InlineKeyboardButton(
-                       "‹ 𝐁𝐥𝐚𝐜𝐤 𝐓𝐞𝐀𝐦 ›", url="https://t.me/vvizinn"),
+                       "‹ سِۅٛࢪسِ مِاެتَࢪكَسِ ›", url="https://t.me/veevvw"),
                ],
            ]
         )
