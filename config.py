@@ -53,9 +53,9 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 
-CHANNEL_NAME = getenv("CHANNEL_NAME", "• 𝐁𝐥𝐚𝐜𝐤 𝐓𝐞𝐀𝐦 •")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "سِۅٛࢪسِ مِاެتَࢪكَسِ")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "vvizinn")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vvizinn")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/veevvw")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -98,21 +98,21 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/3743b50213cb23f67c997.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6be44cf94eb02b3b48275.jpg"
 
 
 def time_to_seconds(time):
